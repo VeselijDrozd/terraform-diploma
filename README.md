@@ -104,7 +104,7 @@ GitLab CR
 
 - GitLab Managed Terraform State (`backend "http"`).
 - Проект GitLab: `homelab/homelab`, имя state: `homelab`.
-- Локальные креды: gitlab_http_backend_cred.sh (gitignore).
+- Локальные креды: [gitlab_http_backend_cred.sh](https://github.com/VeselijDrozd/homelab/blob/master/terraform/gitlab_http_backend_cred.sh.example) (gitignore).
 - CI инфры: `.gitlab-ci.yml` — `fmt` → `validate` → `plan` → ручной `apply`.
 - Модуль ВМ подключается по git-ref (`v1.1.2`), чтобы runner не зависел от sibling-каталога.
 
