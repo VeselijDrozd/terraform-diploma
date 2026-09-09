@@ -144,7 +144,7 @@ Docker Compose на k8s-нодах не ставился: для Kubernetes ис
 | `docker-compose.yml` + cloud-init пример | Deployment `surfhouse`, **3 реплики**, Service, Ingress, GitLab CI deploy |
 
 
-## Я решил не рушить, Compose оставлен как упрощённый стенд; оркестрация — Kubernetes.
+Я решил не рушить, Compose оставлен как упрощённый стенд; оркестрация — Kubernetes.
 
 ## Задание 3. Dockerfile и сохранение образа в Registry
 
